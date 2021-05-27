@@ -1,0 +1,82 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 20px;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(91, 91, 255);
+  border: none;
+  font-weight: bold;
+  transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+  background-color: rgb(126, 126, 255);
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 3px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.btnRemove {
+  padding: 5px 20px;
+  margin: 5px;
+  /* margin-right: auto; */
+  margin-left: auto;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(91, 91, 255);
+  border: none;
+  font-weight: bold;
+  transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
