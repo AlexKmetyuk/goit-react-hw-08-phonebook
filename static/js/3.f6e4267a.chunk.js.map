@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/HomeView.jsx"],"names":["HomeView","className"],"mappings":"kKAQeA,UARE,WACb,OACI,sBAAMC,UAAU,MAAhB,SACI","file":"static/js/3.f6e4267a.chunk.js","sourcesContent":["const HomeView = () => {\n    return(\n        <main className='app'>\n            <h1>Home screen</h1>\n        </main>\n    )\n}\n\nexport default HomeView"],"sourceRoot":""}
